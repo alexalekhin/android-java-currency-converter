@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="true">Converter</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="basic_task" translatable="true">Main task</string>
+    <string name="add_task" translatable="true">Additional task</string>
+    <string name="from" translatable="true">From</string>
+    <string name="convert_from" translatable="true">Convert from</string>
+    <string name="convert_to" translatable="true">Convert to</string>
+</resources>

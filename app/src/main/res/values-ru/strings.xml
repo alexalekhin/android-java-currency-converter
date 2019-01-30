@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name" translatable="true">Конвертер валют</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="basic_task" translatable="true">Основное задание</string>
-    <string name="add_task" translatable="true">Дополнительное задание</string>
+    <string name="add_task" translatable="true">Дополнительное задание 1</string>
+    <string name="add_task2" translatable="true">Дополнительное задание 2</string>
     <string name="from" translatable="true">Из</string>
     <string name="convert_from" translatable="true">Конвертировать из</string>
     <string name="convert_to" translatable="true">Конвертировать в</string>
+    <string name="convert" translatable="true">Конвертировать</string>
+    <string name="example_12_8" translatable="true">Например: 12.8</string>
 </resources>

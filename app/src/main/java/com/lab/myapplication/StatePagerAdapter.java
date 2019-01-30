@@ -7,19 +7,22 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 
 import java.util.ArrayList;
 
+/**
+ * Класс, предоставляющий адаптер для заполнения страниц внутри ViewPager.
+ * Использует фрагменты для управления каждой страницей.
+ */
 public class StatePagerAdapter extends FragmentStatePagerAdapter {
-
 
     private final ArrayList<Fragment> FragmentList = new ArrayList<>();
     private final ArrayList<String> FragmentTitleList = new ArrayList<>();
 
-    public void addFragment(Fragment fragment, String title) {
+    void addFragment(Fragment fragment, String title) {
         FragmentList.add(fragment);
         FragmentTitleList.add(title);
     }
 
 
-    public StatePagerAdapter(FragmentManager fm) {
+    StatePagerAdapter(FragmentManager fm) {
         super(fm);
     }
 
